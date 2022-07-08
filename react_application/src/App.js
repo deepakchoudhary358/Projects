@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import './App.css';
-import RegisterForm from "./components/RegisterForm";
+import AuthUser from "./components/AuthUser";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <nav className="navbar navbar-dark bg-dark navbar-expand-sm">
         <a href="/" className="navbar-brand"> React with Forms handling </a>
       </nav>
-    <RegisterForm />      
+<AuthUser />      
     </Fragment>
   );
 }
