@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import './App.css';
-import DigitalWatch from "./components/DigitalWatch";
+import UserList from "./components/UserList";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <nav className="navbar navbar-dark bg-dark navbar-expand-sm">
         <a href="/" className="navbar-brand"> React with Forms handling </a>
       </nav>
-      <DigitalWatch></DigitalWatch>     
+      <UserList />
     </Fragment>
   );
 }
